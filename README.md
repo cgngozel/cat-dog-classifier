@@ -101,7 +101,7 @@ cat-dog-classifier/
 
 ## Prerequisites
 
-* Python 3.9 or newer
+* Python 3.12 or lower
 
 ---
 
