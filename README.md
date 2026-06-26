@@ -57,19 +57,6 @@ This allows long training sessions to be interrupted safely without losing progr
 
 ---
 
-### High-Performance API
-
-The trained model is served through an asynchronous **FastAPI** application.
-
-Features include:
-
-* Asynchronous image upload
-* Low-latency predictions
-* JSON API responses
-* Production-ready architecture
-
----
-
 # Project Structure
 
 ```text
