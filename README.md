@@ -1,4 +1,4 @@
-# Cat & Dog Classifier (API & Model Deployment) 🐾
+# Cat & Dog Classifier (API & Model Deployment) 
 
 An end-to-end **Deep Learning** and **Backend API** project that classifies uploaded images as either **cats** or **dogs** using a Convolutional Neural Network (CNN).
 
@@ -6,7 +6,7 @@ This repository demonstrates the complete machine learning workflow, from datase
 
 ---
 
-## ✨ Highlights
+## Highlights
 
 * ✅ End-to-end Machine Learning pipeline
 * ✅ TensorFlow/Keras CNN architecture
@@ -18,9 +18,9 @@ This repository demonstrates the complete machine learning workflow, from datase
 
 ---
 
-## 📌 Features
+## Features
 
-### 🧹 Data Sanitization & Cleaning
+### Data Sanitization & Cleaning
 
 The `data-cleaning.py` script automatically scans the dataset directory and permanently removes:
 
@@ -32,7 +32,7 @@ This ensures the training dataset contains only valid images.
 
 ---
 
-### 🧠 Robust CNN Architecture
+### Robust CNN Architecture
 
 The CNN is implemented using **TensorFlow/Keras** and includes several techniques to improve generalization:
 
@@ -45,7 +45,7 @@ These augmentations help reduce overfitting and improve performance on unseen im
 
 ---
 
-### ⚙️ Training Callbacks
+### Training Callbacks
 
 Besides the standard **EarlyStopping** callback, the project implements a custom callback named **ManuelDurdurmaCallback**.
 
@@ -57,7 +57,7 @@ This allows long training sessions to be interrupted safely without losing progr
 
 ---
 
-### 🚀 High-Performance API
+### High-Performance API
 
 The trained model is served through an asynchronous **FastAPI** application.
 
@@ -70,7 +70,7 @@ Features include:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 cat-dog-classifier/
@@ -110,7 +110,7 @@ cat-dog-classifier/
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ## Prerequisites
 
@@ -156,7 +156,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🧠 Model Setup
+# Model Setup
 
 Since trained model files (`*.keras`) are excluded from the repository, choose one of the following options.
 
@@ -222,7 +222,7 @@ file into the project's root directory (next to `main.py`).
 
 ---
 
-# ▶️ Running the API
+# Running the API
 
 Start the FastAPI server:
 
@@ -238,7 +238,7 @@ http://localhost:8000
 
 ---
 
-# 📖 Interactive API Documentation
+# Interactive API Documentation
 
 FastAPI automatically generates interactive Swagger documentation.
 
@@ -258,7 +258,7 @@ Then:
 
 ---
 
-# 📡 API Endpoint
+# API Endpoint
 
 | Method | Endpoint   | Description                                         |
 | ------ | ---------- | --------------------------------------------------- |
@@ -266,7 +266,7 @@ Then:
 
 ---
 
-# 📄 Example Response
+# Example Response
 
 ```json
 {
@@ -275,6 +275,6 @@ Then:
 }
 ```
 
-# 📜 License
+# License
 
 This project is distributed under the **MIT License**.
